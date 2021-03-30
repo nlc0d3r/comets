@@ -1,11 +1,11 @@
 <p align="center"><img src="https://raw.githubusercontent.com/nlc0d3r/comets/main/public/img/comets.png"></p>
 
-#Communication For Managerial And Employment Technology System
+# Communication For Managerial And Employment Technology System
 
 Prototype developed for "ARTSS: Advanced Resilience Technologies for Secure Service" project
 [Project page](https://artss.rtu.lv/)
 
-##System Description
+## System Description
 
 **Objective:** To provide an efficient and secure communication system that combines different communication channels, such as e-mail, video conferencing, surveys and also informs the company manager about how his employees feel, helps to compensate for the lack of direct communication caused by working remotely. The purpose of the application is to help company managers maintain communication with company employees and determine how employees feel. The potential target audience would be companies whose employees work remotely.
 
