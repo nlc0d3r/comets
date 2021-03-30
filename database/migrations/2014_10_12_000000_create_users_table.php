@@ -28,15 +28,6 @@ class CreateUsersTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
-        DB::table('users')->insert([
-            [
-                'parentid'=> '1',
-                'group'=> 'administrator',
-                'name'=> 'Admin',
-                'email'=> 'm.melnikovs@gmail.com',
-                'password'=> Hash::make('TestaParole_2020!'),
-            ]
-        ]);
     }
 
     /**
