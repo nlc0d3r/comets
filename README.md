@@ -1,4 +1,5 @@
 <p align="center"><img src="https://raw.githubusercontent.com/nlc0d3r/comets/main/public/img/comets.png"></p>
+
 #Communication For Managerial And Employment Technology System
 
 Prototype developed for "ARTSS: Advanced Resilience Technologies for Secure Service" project
