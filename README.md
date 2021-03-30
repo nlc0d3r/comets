@@ -1,5 +1,17 @@
-![Comets Logo](public/img/comets.png)
-# **comets**
+<p align="center">![Comets Logo](public/img/comets.png)</p>
+#**Communication For Managerial And Employment Technology System**
+
+Prototype developed for "ARTSS: Advanced Resilience Technologies for Secure Service" project
+[Project page][https://artss.rtu.lv/]
+
+##System Description
+
+**Objective:** To provide an efficient and secure communication system that combines different communication channels, such as e-mail, video conferencing, surveys and also informs the company manager about how his employees feel, helps to compensate for the lack of direct communication caused by working remotely. The purpose of the application is to help company managers maintain communication with company employees and determine how employees feel. The potential target audience would be companies whose employees work remotely.
+**Functionality:** The system includes three main sections of emails, meetings and surveys. Through the e-mail section, the system allows company managers to send individual or collective e-mails to their employees. Through the meetings section, the company manager can organize and schedule meetings and send information about the scheduled online meeting to his employees and receive an employee evaluation of the meeting after the meeting. The company manager can create various surveys that are filled in by employees. The system also includes chat functionality. The system informs the system users about the meetings and the created surveys by e-mail.
+
+
+<hr>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
