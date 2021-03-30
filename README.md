@@ -1,8 +1,8 @@
-
+<p align="center">![Comets Logo](public/img/comets.png)</p>
 #Communication For Managerial And Employment Technology System
 
 Prototype developed for "ARTSS: Advanced Resilience Technologies for Secure Service" project
-[Project page][https://artss.rtu.lv/]
+[Project page](https://artss.rtu.lv/)
 
 ##System Description
 
