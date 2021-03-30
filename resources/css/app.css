@@ -1,0 +1,7 @@
+.moodPopup-mask {
+	background: rgba( 0, 0, 0, 0.5 );
+	position: absolute;
+	z-index: 1000px;
+	top: 0;
+	left: 0;
+}
