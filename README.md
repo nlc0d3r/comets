@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/nlc0d3r/comets/main/public/img/comets.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nlc0d3r/comets/main/public/img/comets.png" height="100"></p>
 
 # Communication For Managerial And Employment Technology System
 
