@@ -12,6 +12,8 @@ use App\Models\Answer;
 use App\Exports\AnswersExport;
 use Maatwebsite\Excel\Facades\Excel;
 
+use Illuminate\Support\Facades\DB;
+
 class SurveysAdminController extends Controller
 {
     /**
@@ -121,6 +123,28 @@ class SurveysAdminController extends Controller
         return Excel::download( new AnswersExport( $request->user ), $fileName );
     }
 
+    public static function answerDataSum( $user )
+    {
+
+        return Answer::select( 
+            DB::raw("AVG(REC_MID) AS REC"),
+            DB::raw("AVG(WRK_MID) AS WRK"),
+            DB::raw("AVG(ADV_MID) AS ADV"),
+            DB::raw("AVG(GTH_MID) AS GTH"),
+            DB::raw("AVG(GFO_MID) AS GFO"),
+            DB::raw("AVG(MIS_MID) AS MIS"),
+            DB::raw("AVG(SMG_MID) AS SMG"),
+            DB::raw("AVG(SPV_MID) AS SPV"),
+            DB::raw("AVG(CWR_MID) AS CWR"),
+            DB::raw("AVG(SAL_MID) AS SAL"),
+            DB::raw("AVG(BEN_MID) AS BEN"),
+            DB::raw("AVG(VAL_MID) AS VAL"),
+            DB::raw("AVG(SAT_MID) AS SAT"),
+            DB::raw("AVG(TRN_MID) AS TRN"),
+            DB::raw("AVG(SATISFACTION) AS SATISFACTION"),
+        )->where( 'user', $user )->get();
+
+    }
 
     public function csv( $csv )
     {
